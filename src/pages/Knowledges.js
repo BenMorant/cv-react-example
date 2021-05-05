@@ -1,3 +1,10 @@
-const Knowledges = () => <div>knowledges</div>
+import Navigation from '../components/Navigation'
+
+const Knowledges = () => (
+  <div>
+    <Navigation />
+    knowledges
+  </div>
+)
 
 export default Knowledges
