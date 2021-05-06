@@ -1,9 +1,10 @@
 import Navigation from '../components/Navigation'
+import ProjectList from '../components/portfolio/ProjectList'
 
 const Portfolio = () => (
-  <div>
+  <div className="portfolio">
     <Navigation />
-    Portfolio
+    <ProjectList />
   </div>
 )
 
