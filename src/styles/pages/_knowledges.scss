@@ -132,6 +132,7 @@
       p {
         text-align: justify;
         padding: 0 1rem;
+        color: $color-1;
       }
       .exp-1 {
         grid-area: 2;
@@ -158,6 +159,9 @@
           i {
             color: $color-5;
           }
+          span {
+            color: $color-1;
+          }
         }
       }
     }
@@ -177,6 +181,7 @@
           span {
             position: absolute;
             transform: translateX(2.2rem);
+            color: $color-1;
           }
         }
       }

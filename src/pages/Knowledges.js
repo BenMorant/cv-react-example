@@ -1,9 +1,18 @@
+import Experience from 'components/knowledges/Experience'
+import Hobbies from 'components/knowledges/Hobbies'
+import Languages from 'components/knowledges/Languages'
 import Navigation from '../components/Navigation'
+import OtherSkills from 'components/knowledges/OtherSkills'
 
 const Knowledges = () => (
-  <div>
+  <div className="knowledges">
     <Navigation />
-    knowledges
+    <div className="knowledgesContent">
+      <Languages />
+      <Experience />
+      <OtherSkills />
+      <Hobbies />
+    </div>
   </div>
 )
 
