@@ -1,12 +1,11 @@
-/* eslint-disable no-unused-vars */
 import Project from './Project'
 import { portfolioData } from 'data/portfolioData'
 import { useState } from 'react'
 
 const ProjectList = () => {
-  const [projects, setProjects] = useState(portfolioData)
+  const [projects] = useState(portfolioData)
 
-  const [radios, setRadios] = useState([
+  const [radios] = useState([
     { id: 1, value: 'javascript' },
     { id: 2, value: 'css' },
     { id: 3, value: 'react' },

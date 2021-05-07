@@ -1,15 +1,14 @@
-/* eslint-disable no-unused-vars */
 import ProgressBar from './ProgressBar'
 import { useState } from 'react'
 
 const Languages = () => {
-  const [languages, setLanguages] = useState([
+  const [languages] = useState([
     { id: 1, value: 'JavaScript', xp: 1.8 },
     { id: 2, value: 'Java', xp: 1.5 },
     { id: 3, value: 'C', xp: 0.8 },
   ])
 
-  const [frameworks, setFrameworks] = useState([
+  const [frameworks] = useState([
     { id: 1, value: 'React', xp: 1.7 },
     { id: 2, value: 'Angular(2+)', xp: 1.3 },
     { id: 3, value: 'Spring', xp: 0.7 },

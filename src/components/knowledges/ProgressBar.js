@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const ProgressBar = ({ title, languages, className }) => (
   <div className={className}>
     <h3>{title}</h3>
